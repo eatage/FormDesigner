@@ -201,6 +201,12 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <Content Include="Icon\edit_128px_yellow.ico" />
+    <Content Include="Icon\edit_72px_blue.ico" />
+    <Content Include="Icon\notepad_128px_blue.ico" />
+    <Content Include="Icon\null.png" />
+    <Content Include="lib\SyntaxTextBox.dll" />
+    <Content Include="lib\SyntaxTextBox.txt" />
     <Content Include="SQL.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
