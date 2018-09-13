@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{03DF5694-BC60-4030-B66E-0304F0A63059}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FormDesinger</RootNamespace>
+    <AssemblyName>FormDesinger</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Icon\edit_128px_blue.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="SyntaxTextBox">
+      <HintPath>lib\SyntaxTextBox.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Core\Collections.cs" />
+    <Compile Include="Core\CustomProperty\CustomProperty.cs" />
+    <Compile Include="Core\CustomProperty\CustomPropertyCollection.cs" />
+    <Compile Include="Core\CustomProperty\CustomPropertyDescriptor.cs" />
+    <Compile Include="Core\UndoAndRedo.cs" />
+    <Compile Include="Forms\AddControlDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AddControlDialog.Designer.cs">
+      <DependentUpon>AddControlDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Core\ControlHelper.cs" />
+    <Compile Include="Core\Analysis.cs" />
+    <Compile Include="Core\ControlSave.cs" />
+    <Compile Include="Core\GetFileEncoding.cs" />
+    <Compile Include="Core\OldAnalysis.cs" />
+    <Compile Include="Core\Tools.cs" />
+    <Compile Include="UserControls\DesignerControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\DesignerControl.Designer.cs">
+      <DependentUpon>DesignerControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Notepad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Notepad.Designer.cs">
+      <DependentUpon>Notepad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\HostFrame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\HostFrame.Designer.cs">
+      <DependentUpon>HostFrame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Core\MessageFilter.cs" />
+    <Compile Include="UserControls\Overlayer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Overlayer.Designer.cs">
+      <DependentUpon>Overlayer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Core\Select.cs" />
+    <Compile Include="FromDesigner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FromDesigner.Designer.cs">
+      <DependentUpon>FromDesigner.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\LineNumberTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UserControls\MyTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Core\SQLStringEditor.cs" />
+    <Compile Include="UserControls\ToolMenuItems.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ToolMenuItems.Designer.cs">
+      <DependentUpon>ToolMenuItems.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Forms\AddControlDialog.resx">
+      <DependentUpon>AddControlDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\DesignerControl.resx">
+      <DependentUpon>DesignerControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Notepad.resx">
+      <DependentUpon>Notepad.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\HostFrame.resx">
+      <DependentUpon>HostFrame.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Overlayer.resx">
+      <DependentUpon>Overlayer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="FromDesigner.resx">
+      <DependentUpon>FromDesigner.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ToolMenuItems.resx">
+      <DependentUpon>ToolMenuItems.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Core\Recter.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="SQL.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icon\edit_128px_blue.ico" />
+    <None Include="Icon\tools_treeview_32px.png" />
+    <None Include="Icon\tools_panel_24px.png" />
+    <Content Include="readme.txt" />
+    <None Include="Icon\tools_open.png" />
+    <None Include="Icon\tools_close.png" />
+    <None Include="Icon\tools_settings_24px.png" />
+    <None Include="Icon\tools_add_24px.png" />
+    <None Include="Icon\align_top_72px.png" />
+    <None Include="Icon\align_right_72px.png" />
+    <None Include="Icon\align_left_72px.png" />
+    <None Include="Icon\align_center_vertical_72px.png" />
+    <None Include="Icon\align_center_level_72px.png" />
+    <None Include="Icon\align_box_vertical_72px.png" />
+    <None Include="Icon\align_box_level_72px.png" />
+    <None Include="Icon\align_box_all_72px.png" />
+    <None Include="Icon\align_bottom_72px.png" />
+    <None Include="Icon\align_add_vertica_72px.png" />
+    <None Include="Icon\align_add_level_72px.png" />
+    <None Include="Icon\reset_right_indent_72px.png" />
+    <None Include="Icon\reset_right_72px.png" />
+    <None Include="Icon\reset_numbered_list_72px.png" />
+    <None Include="Icon\reset_list_72px.png" />
+    <None Include="Icon\reset_left_indent_72px.png" />
+    <None Include="Icon\reset_left_72px.png" />
+    <None Include="Icon\reset_justify_72pxpng.png" />
+    <None Include="Icon\reset_center_72px.png" />
+    <None Include="Icon\reset_tune_72px.png" />
+    <None Include="Icon\tools_progressbar_24px.png" />
+    <None Include="Icon\tools_picture_24px.png" />
+    <None Include="Icon\tools_linklabel_40px.png" />
+    <None Include="Icon\tools_time_145px.png" />
+    <None Include="Icon\tools_listbox_32px.png" />
+    <None Include="Icon\tools_dropdown_50px.png" />
+    <None Include="Icon\tools_radiobutton_32px.png" />
+    <None Include="Icon\tools_checkbox_32px.png" />
+    <None Include="Icon\tools_textbox_50px.png" />
+    <None Include="Icon\tools_button_50pxt.png" />
+    <None Include="Icon\tools_label_48px.png" />
+    <None Include="Icon\tools_24px.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,1191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DescriptorCollection>
+  <Descriptor>
+    <Token>/*</Token>
+    <CloseToken>*/</CloseToken>
+    <Color>0,100,0</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>ToCloseToken</DescriptorType>
+    <DescriptorRecognition>StartsWith</DescriptorRecognition>
+    <UseForAutoComplete>False</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>'</Token>
+    <CloseToken>'</CloseToken>
+    <Color>255,0,0</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>ToCloseToken</DescriptorType>
+    <DescriptorRecognition>StartsWith</DescriptorRecognition>
+    <UseForAutoComplete>False</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>"</Token>
+    <CloseToken>"</CloseToken>
+    <Color>255,0,0</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>ToCloseToken</DescriptorType>
+    <DescriptorRecognition>StartsWith</DescriptorRecognition>
+    <UseForAutoComplete>False</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>--</Token>
+    <CloseToken />
+    <Color>0,100,0</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>ToEOL</DescriptorType>
+    <DescriptorRecognition>StartsWith</DescriptorRecognition>
+    <UseForAutoComplete>False</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>#</Token>
+    <CloseToken />
+    <Color>0,100,0</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>ToEOL</DescriptorType>
+    <DescriptorRecognition>StartsWith</DescriptorRecognition>
+    <UseForAutoComplete>False</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>//</Token>
+    <CloseToken />
+    <Color>0,100,0</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>ToEOL</DescriptorType>
+    <DescriptorRecognition>StartsWith</DescriptorRecognition>
+    <UseForAutoComplete>False</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>create</Token>
+    <CloseToken />
+    <Color>0,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>drop</Token>
+    <CloseToken />
+    <Color>0,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>insert</Token>
+    <CloseToken />
+    <Color>0,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>delete</Token>
+    <CloseToken />
+    <Color>0,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>select</Token>
+    <CloseToken />
+    <Color>0,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>update</Token>
+    <CloseToken />
+    <Color>0,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>from</Token>
+    <CloseToken />
+    <Color>0,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>where</Token>
+    <CloseToken />
+    <Color>0,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>or</Token>
+    <CloseToken />
+    <Color>0,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>top</Token>
+    <CloseToken />
+    <Color>0,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>limit</Token>
+    <CloseToken />
+    <Color>0,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>add</Token>
+    <CloseToken />
+    <Color>0,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>into</Token>
+    <CloseToken />
+    <Color>0,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>values</Token>
+    <CloseToken />
+    <Color>0,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>alter</Token>
+    <CloseToken />
+    <Color>0,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>set</Token>
+    <CloseToken />
+    <Color>0,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>use</Token>
+    <CloseToken />
+    <Color>0,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>PRIMARY</Token>
+    <CloseToken />
+    <Color>0,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>KEY</Token>
+    <CloseToken />
+    <Color>0,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>left</Token>
+    <CloseToken />
+    <Color>0,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>right</Token>
+    <CloseToken />
+    <Color>0,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>join</Token>
+    <CloseToken />
+    <Color>0,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>then</Token>
+    <CloseToken />
+    <Color>0,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>exec</Token>
+    <CloseToken />
+    <Color>0,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>if</Token>
+    <CloseToken />
+    <Color>0,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>else</Token>
+    <CloseToken />
+    <Color>0,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>when</Token>
+    <CloseToken />
+    <Color>0,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>case</Token>
+    <CloseToken />
+    <Color>0,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>begin</Token>
+    <CloseToken />
+    <Color>0,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>end</Token>
+    <CloseToken />
+    <Color>0,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>table</Token>
+    <CloseToken />
+    <Color>0,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>for</Token>
+    <CloseToken />
+    <Color>0,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>foreach</Token>
+    <CloseToken />
+    <Color>0,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>in</Token>
+    <CloseToken />
+    <Color>0,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>on</Token>
+    <CloseToken />
+    <Color>0,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>off</Token>
+    <CloseToken />
+    <Color>0,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>and</Token>
+    <CloseToken />
+    <Color>0,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>open</Token>
+    <CloseToken />
+    <Color>0,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>close</Token>
+    <CloseToken />
+    <Color>0,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>DEALLOCATE</Token>
+    <CloseToken />
+    <Color>0,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>fetch</Token>
+    <CloseToken />
+    <Color>0,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>while</Token>
+    <CloseToken />
+    <Color>0,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>break</Token>
+    <CloseToken />
+    <Color>0,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>return</Token>
+    <CloseToken />
+    <Color>0,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>returns</Token>
+    <CloseToken />
+    <Color>0,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>string</Token>
+    <CloseToken />
+    <Color>0,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>char</Token>
+    <CloseToken />
+    <Color>0,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>varchar</Token>
+    <CloseToken />
+    <Color>0,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>byte</Token>
+    <CloseToken />
+    <Color>0,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>int</Token>
+    <CloseToken />
+    <Color>0,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>smallint</Token>
+    <CloseToken />
+    <Color>0,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>short</Token>
+    <CloseToken />
+    <Color>0,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>long</Token>
+    <CloseToken />
+    <Color>0,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>float</Token>
+    <CloseToken />
+    <Color>0,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>double</Token>
+    <CloseToken />
+    <Color>0,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>decimal</Token>
+    <CloseToken />
+    <Color>0,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>unsigned</Token>
+    <CloseToken />
+    <Color>0,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>bool</Token>
+    <CloseToken />
+    <Color>0,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>datetime</Token>
+    <CloseToken />
+    <Color>0,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>date</Token>
+    <CloseToken />
+    <Color>0,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>not</Token>
+    <CloseToken />
+    <Color>0,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>null</Token>
+    <CloseToken />
+    <Color>0,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>true</Token>
+    <CloseToken />
+    <Color>0,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>false</Token>
+    <CloseToken />
+    <Color>0,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>as</Token>
+    <CloseToken />
+    <Color>0,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>is</Token>
+    <CloseToken />
+    <Color>0,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>like</Token>
+    <CloseToken />
+    <Color>0,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>query</Token>
+    <CloseToken />
+    <Color>0,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>rows</Token>
+    <CloseToken />
+    <Color>0,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>row</Token>
+    <CloseToken />
+    <Color>0,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>only</Token>
+    <CloseToken />
+    <Color>0,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>order</Token>
+    <CloseToken />
+    <Color>0,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>group</Token>
+    <CloseToken />
+    <Color>0,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>by</Token>
+    <CloseToken />
+    <Color>0,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>asc</Token>
+    <CloseToken />
+    <Color>0,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>desc</Token>
+    <CloseToken />
+    <Color>0,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>having</Token>
+    <CloseToken />
+    <Color>0,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>union</Token>
+    <CloseToken />
+    <Color>0,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>all</Token>
+    <CloseToken />
+    <Color>0,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>dbo</Token>
+    <CloseToken />
+    <Color>0,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>function</Token>
+    <CloseToken />
+    <Color>0,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>cursor</Token>
+    <CloseToken />
+    <Color>0,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>between</Token>
+    <CloseToken />
+    <Color>0,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>go</Token>
+    <CloseToken />
+    <Color>0,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>with</Token>
+    <CloseToken />
+    <Color>0,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>declare</Token>
+    <CloseToken />
+    <Color>0,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>tnt</Token>
+    <CloseToken />
+    <Color>0,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>next</Token>
+    <CloseToken />
+    <Color>0,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>exists</Token>
+    <CloseToken />
+    <Color>0,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>substring</Token>
+    <CloseToken />
+    <Color>255,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>now</Token>
+    <CloseToken />
+    <Color>255,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>getdate</Token>
+    <CloseToken />
+    <Color>255,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>count</Token>
+    <CloseToken />
+    <Color>255,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>max</Token>
+    <CloseToken />
+    <Color>255,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>min</Token>
+    <CloseToken />
+    <Color>255,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>sum</Token>
+    <CloseToken />
+    <Color>255,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>lower</Token>
+    <CloseToken />
+    <Color>255,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>upper</Token>
+    <CloseToken />
+    <Color>255,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>substring</Token>
+    <CloseToken />
+    <Color>255,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>substr</Token>
+    <CloseToken />
+    <Color>255,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>curdate</Token>
+    <CloseToken />
+    <Color>255,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>curtime</Token>
+    <CloseToken />
+    <Color>255,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>year</Token>
+    <CloseToken />
+    <Color>255,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>week</Token>
+    <CloseToken />
+    <Color>255,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>hour</Token>
+    <CloseToken />
+    <Color>255,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>minute</Token>
+    <CloseToken />
+    <Color>255,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>month</Token>
+    <CloseToken />
+    <Color>255,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>datediff</Token>
+    <CloseToken />
+    <Color>255,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>adddate</Token>
+    <CloseToken />
+    <Color>255,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>isdate</Token>
+    <CloseToken />
+    <Color>255,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>ceil</Token>
+    <CloseToken />
+    <Color>255,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>floor</Token>
+    <CloseToken />
+    <Color>255,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>rand</Token>
+    <CloseToken />
+    <Color>255,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>len</Token>
+    <CloseToken />
+    <Color>255,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>convert</Token>
+    <CloseToken />
+    <Color>255,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>cast</Token>
+    <CloseToken />
+    <Color>255,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>length</Token>
+    <CloseToken />
+    <Color>255,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>stuff</Token>
+    <CloseToken />
+    <Color>255,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>ltrim</Token>
+    <CloseToken />
+    <Color>255,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>rtrim</Token>
+    <CloseToken />
+    <Color>255,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>replace</Token>
+    <CloseToken />
+    <Color>255,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>str</Token>
+    <CloseToken />
+    <Color>255,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>space</Token>
+    <CloseToken />
+    <Color>255,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>concat</Token>
+    <CloseToken />
+    <Color>255,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>isnull</Token>
+    <CloseToken />
+    <Color>255,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+  <Descriptor>
+    <Token>ifnull</Token>
+    <CloseToken />
+    <Color>255,0,255</Color>
+    <Font>宋体,20</Font>
+    <DescriptorType>Word</DescriptorType>
+    <DescriptorRecognition>WholeWord</DescriptorRecognition>
+    <UseForAutoComplete>True</UseForAutoComplete>
+  </Descriptor>
+</DescriptorCollection>
