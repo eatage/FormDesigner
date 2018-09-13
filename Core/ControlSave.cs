@@ -29,7 +29,7 @@ namespace FormDesinger.Core
             sb.Append("[Form]\r\n");
             sb.Append(string.Format("Width={0};Height={1};Text={2}\r\n", overlayer.DesingerFormSize.X, overlayer.DesingerFormSize.Y, overlayer.DesingerFormText));
             sb.Append("[SQL]\r\n");
-            sb.Append(overlayer.DesingerForm.SQL+"\r\n");
+            sb.Append(overlayer.DesingerForm.SQL + "\r\n");
             sb.Append("[ENDSQL]\r\n");
             foreach (Control c in overlayer.Controls)
             {
@@ -46,8 +46,9 @@ namespace FormDesinger.Core
                     controlType = controlType.Substring(controlType.LastIndexOf(".") + 1);
                 sb.Append(string.Format("[{0}]\r\n", controlType));
                 //添加保存的属性 解析也需要添加
-                sb.Append(string.Format("Width={0};Height={1};Text={2};Location={3};TabIndex={4};\r\n",
-                    c.Width, c.Height, c.Text, c.Location.X + "," + c.Location.Y, c.TabIndex));
+                sb.Append(string.Format("Width={0};Height={1};Text={2};Location={3};TabIndex={4};ForeColor={5};\r\n",
+                    c.Width, c.Height, c.Text, c.Location.X + "," + c.Location.Y,
+                    c.TabIndex, c.ForeColor.A + "," + c.ForeColor.R + "," + c.ForeColor.G + "," + c.ForeColor.B));
             }
 
             return sb.ToString();

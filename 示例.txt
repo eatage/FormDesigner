@@ -1,0 +1,22 @@
+﻿[Form]
+Width=424;Height=265;Text=登陆页;
+[SQL]
+select userid,username,password
+   from user
+where username=@username
+order by
+insdate desc
+
+[ENDSQL]
+[Button]
+Width=90;Height=23;Text=注册;Location=66,156;TabIndex=5;ForeColor=255,0,0,255;
+[TextBox]
+Width=141;Height=21;Text=password;Location=139,98;TabIndex=4;ForeColor=255,0,0,0;
+[Label]
+Width=50;Height=18;Text=密　码;Location=76,98;TabIndex=3;ForeColor=255,0,0,0;
+[Button]
+Width=90;Height=23;Text=登陆;Location=200,156;TabIndex=2;ForeColor=255,0,0,0;
+[TextBox]
+Width=143;Height=21;Text=username;Location=139,47;TabIndex=1;ForeColor=255,0,0,0;
+[Label]
+Width=48;Height=20;Text=用户名;Location=76,47;TabIndex=0;ForeColor=255,0,0,0;

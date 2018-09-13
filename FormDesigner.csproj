@@ -211,6 +211,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Icon\edit_128px_blue.ico" />
+    <Content Include="示例.txt" />
     <None Include="Icon\tools_treeview_32px.png" />
     <None Include="Icon\tools_panel_24px.png" />
     <Content Include="readme.txt" />

@@ -63,6 +63,7 @@ namespace FormDesinger.Core
                             textBox.Width = GetWidth(node);
                             textBox.Height = GetHeight(node);
                             textBox.TabIndex = GetTabIndex(node);
+                            textBox.ForeColor = GetForeColor(node);
                             controls.Add(textBox);
                             i++;
                             break;
@@ -74,7 +75,20 @@ namespace FormDesinger.Core
                             label.Width = GetWidth(node);
                             label.Height = GetHeight(node);
                             label.TabIndex = GetTabIndex(node);
+                            label.ForeColor = GetForeColor(node);
                             controls.Add(label);
+                            i++;
+                            break;
+                        case "Button":
+                            node = nodes[i + 1];
+                            Button button = new Button();
+                            button.Location = GetLocation(node);
+                            button.Text = GetText(node);
+                            button.Width = GetWidth(node);
+                            button.Height = GetHeight(node);
+                            button.TabIndex = GetTabIndex(node);
+                            button.ForeColor = GetForeColor(node);
+                            controls.Add(button);
                             i++;
                             break;
                         case "DateTimePicker":
@@ -185,6 +199,31 @@ namespace FormDesinger.Core
             int index = 0;
             int.TryParse(node, out index);
             return index;
+        }
+        private Color GetForeColor(string node)
+        {
+            if (string.IsNullOrEmpty(node))
+                return Color.White;
+            int star = node.IndexOf("ForeColor=");
+            if (star == -1)
+                return Color.White;
+            star += 10;
+            node = node.Substring(star);
+            int end = node.IndexOf(";");
+            if (end == -1)
+                return Color.White;
+            node = node.Substring(0, end);
+            if (node.IndexOf(",") == -1)
+                return Color.White;
+            try
+            {
+                return Color.FromArgb(int.Parse(node.Split(',')[0]),
+                    int.Parse(node.Split(',')[1]), int.Parse(node.Split(',')[2]), int.Parse(node.Split(',')[3]));
+            }
+            catch
+            {
+                return Color.White;
+            }
         }
     }
 }
