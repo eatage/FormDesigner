@@ -62,6 +62,10 @@
             this.视图ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.设计器最大化ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.还原ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.语言ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.中文ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.englishToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.deutschToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.propertyGrid1 = new System.Windows.Forms.PropertyGrid();
             this.splitter1 = new System.Windows.Forms.Splitter();
             this.splitter2 = new System.Windows.Forms.Splitter();
@@ -482,7 +486,8 @@
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.操作ToolStripMenuItem,
-            this.视图ToolStripMenuItem});
+            this.视图ToolStripMenuItem,
+            this.语言ToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(1224, 25);
@@ -549,7 +554,38 @@
             this.还原ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
             this.还原ToolStripMenuItem.Text = "还原";
             this.还原ToolStripMenuItem.Click += new System.EventHandler(this.还原ToolStripMenuItem_Click);
-            // 
+            //
+            // 语言ToolStripMenuItem
+            //
+            this.语言ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.中文ToolStripMenuItem,
+            this.englishToolStripMenuItem,
+            this.deutschToolStripMenuItem});
+            this.语言ToolStripMenuItem.Name = "语言ToolStripMenuItem";
+            this.语言ToolStripMenuItem.Size = new System.Drawing.Size(44, 21);
+            this.语言ToolStripMenuItem.Text = "语言";
+            //
+            // 中文ToolStripMenuItem
+            //
+            this.中文ToolStripMenuItem.Name = "中文ToolStripMenuItem";
+            this.中文ToolStripMenuItem.Size = new System.Drawing.Size(116, 22);
+            this.中文ToolStripMenuItem.Text = "中文";
+            this.中文ToolStripMenuItem.Click += new System.EventHandler(this.中文ToolStripMenuItem_Click);
+            //
+            // englishToolStripMenuItem
+            //
+            this.englishToolStripMenuItem.Name = "englishToolStripMenuItem";
+            this.englishToolStripMenuItem.Size = new System.Drawing.Size(116, 22);
+            this.englishToolStripMenuItem.Text = "English";
+            this.englishToolStripMenuItem.Click += new System.EventHandler(this.englishToolStripMenuItem_Click);
+            //
+            // deutschToolStripMenuItem
+            //
+            this.deutschToolStripMenuItem.Name = "deutschToolStripMenuItem";
+            this.deutschToolStripMenuItem.Size = new System.Drawing.Size(116, 22);
+            this.deutschToolStripMenuItem.Text = "Deutsch";
+            this.deutschToolStripMenuItem.Click += new System.EventHandler(this.deutschToolStripMenuItem_Click);
+            //
             // propertyGrid1
             // 
             this.propertyGrid1.Dock = System.Windows.Forms.DockStyle.Right;
@@ -675,5 +711,9 @@
         private System.Windows.Forms.ToolStripMenuItem 还原ToolStripMenuItem;
         private UserControls.ToolMenuItems toolMenuItems_panel;
         private UserControls.ToolMenuItems toolMenuItems_label;
+        private System.Windows.Forms.ToolStripMenuItem 语言ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 中文ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem englishToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem deutschToolStripMenuItem;
     }
 }
