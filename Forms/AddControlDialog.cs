@@ -16,6 +16,9 @@ namespace FormDesinger
         public AddControlDialog()
         {
             InitializeComponent();
+            button1.Text = Lang.T("确定");
+            button2.Text = Lang.T("取消");
+            Text = Lang.T("程序集中的控件列表");
         }
         public Assembly Assembly
         {

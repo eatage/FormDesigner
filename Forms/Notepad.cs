@@ -14,6 +14,7 @@ namespace FormDesinger
         public Notepad(object source)
         {
             InitializeComponent();
+            ApplyLanguage();
 
             undoAndRedo = new UndoAndRedo(6);
             this.txtContent.Seperators.Remove('-');//SQL的注释比较特殊,分析语句时去掉 - 分隔符
@@ -69,10 +70,35 @@ namespace FormDesinger
         }
 
         #region Method
+        /// <summary>
+        /// 按当前语言设置界面文字
+        /// </summary>
+        private void ApplyLanguage()
+        {
+            Text = Lang.T("编辑SQL");
+            menuItemF.Text = Lang.T("文件(F)");
+            保存ToolStripMenuItem.Text = Lang.T("保存(S)");
+            编辑EToolStripMenuItem.Text = Lang.T("编辑(E)");
+            撤销ToolStripMenuItem.Text = Lang.T("撤销(U)");
+            恢复ToolStripMenuItem.Text = Lang.T("恢复(Y)");
+            剪切TToolStripMenuItem.Text = Lang.T("剪切(T)");
+            复制CToolStripMenuItem.Text = Lang.T("复制(C)");
+            粘贴PToolStripMenuItem.Text = Lang.T("粘贴(P)");
+            删除LToolStripMenuItem.Text = Lang.T("删除(L)");
+            全选AToolStripMenuItem.Text = Lang.T("全选(A)");
+            格式ToolStripMenuItem.Text = Lang.T("格式(O)");
+            自动换行ToolStripMenuItem.Text = Lang.T("自动换行(W)");
+            字体FToolStripMenuItem.Text = Lang.T("字体(F)...");
+            查看ToolStripMenuItem.Text = Lang.T("查看(V)");
+            状态栏ToolStripMenuItem.Text = Lang.T("状态栏(S)");
+            tssl_Lines.Text = Lang.T("第{0}行", 1);
+            tssl_TotalStr.Text = Lang.T("共{0}个字符", 0);
+        }
+
         private void ShowCursorLine()
         {
-            tssl_Lines.Text = string.Format("第{0}行", (this.txtContent.GetLineFromCharIndex(this.txtContent.SelectionStart) + 1));
-            tssl_TotalStr.Text = string.Format("共{0}个字符", txtContent.Text.Length);
+            tssl_Lines.Text = Lang.T("第{0}行", (this.txtContent.GetLineFromCharIndex(this.txtContent.SelectionStart) + 1));
+            tssl_TotalStr.Text = Lang.T("共{0}个字符", txtContent.Text.Length);
         }
 
 
@@ -229,7 +255,7 @@ namespace FormDesinger
             }
             if (this.DialogResult != DialogResult.OK)
             {
-                DialogResult dr = MessageBox.Show("退出前是否保存编辑信息？", "提示", MessageBoxButtons.YesNo, MessageBoxIcon.Asterisk);
+                DialogResult dr = MessageBox.Show(Lang.T("退出前是否保存编辑信息？"), Lang.T("提示"), MessageBoxButtons.YesNo, MessageBoxIcon.Asterisk);
                 if (dr == DialogResult.Yes)
                     保存ToolStripMenuItem_Click(null, e);
                 else

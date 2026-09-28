@@ -61,7 +61,7 @@ namespace FormDesinger
         {
             get
             {
-                return _customProperty.Description;
+                return Lang.T(_customProperty.Description);
             }
         }
 
@@ -69,7 +69,7 @@ namespace FormDesinger
         {
             get
             {
-                return _customProperty.Category;
+                return Lang.T(_customProperty.Category);
             }
         }
 
@@ -77,7 +77,7 @@ namespace FormDesinger
         {
             get
             {
-                return _customProperty.Name;
+                return Lang.T(_customProperty.Name);
             }
         }
 

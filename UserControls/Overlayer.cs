@@ -396,7 +396,7 @@ namespace FormDesinger
                 ctrl.Location = _themainhost.PointToClient(new Point(drgevent.X, drgevent.Y)); //屏幕坐标转换成控件容器坐标
                 if (!new Rectangle(_themainhost.Location, _themainhost.Size).Contains(new Rectangle(ctrl.Location, ctrl.Size)))
                 {
-                    MessageBox.Show("你不能在设计器外面创建控件", "提示", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    MessageBox.Show(Lang.T("你不能在设计器外面创建控件"), Lang.T("提示"), MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     return;
                 }
                 if (!(ctrl is DateTimePicker))
@@ -664,14 +664,14 @@ namespace FormDesinger
         {
             if (_themainhost.Controls.Count == 0)
             {
-                MessageBox.Show("当前设计器没有任何控件,\n请先添加控件再进行此操作.",
-                    "提示", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show(Lang.T("当前设计器没有任何控件,\n请先添加控件再进行此操作."),
+                    Lang.T("提示"), MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return false;
             }
             if (_themainhost.Controls.Count < 2)//不足两个,排序无意义
             {
-                MessageBox.Show("当前设计器控件不足两个,\n对齐操作无意义.",
-                    "提示", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show(Lang.T("当前设计器控件不足两个,\n对齐操作无意义."),
+                    Lang.T("提示"), MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return false;
             }
             return true;

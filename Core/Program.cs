@@ -13,6 +13,7 @@ namespace FormDesinger
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            Lang.Load();
             Application.Run(new FromDesigner());
             //Application.Run(new Notepad(null));
         }

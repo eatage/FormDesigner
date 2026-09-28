@@ -29,7 +29,7 @@ namespace FormDesinger
             _hostFrame = new HostFrame();
             _hostFrame.TopLevel = false;  //当做子控件添加到设计面板
             _hostFrame.Location = new Point(10, 10);
-            _hostFrame.Text = "设计界面";
+            _hostFrame.Text = Lang.T("设计界面");
             Controls.Add(_hostFrame);
             _hostFrame.Show();
 

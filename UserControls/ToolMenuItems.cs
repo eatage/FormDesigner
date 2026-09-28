@@ -230,6 +230,14 @@ namespace FormDesinger.UserControls
 
         private void ToolMenuItems_Load(object sender, EventArgs e)
         {
+            RefreshToolTip();
+        }
+
+        /// <summary>
+        /// 刷新鼠标悬浮提示(名称或提示文字改变后调用)
+        /// </summary>
+        public void RefreshToolTip()
+        {
             string tip = string.Empty;
             if (string.IsNullOrEmpty(toolTip))
                 tip = label1.Text;
